@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch and Timer</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div class="stopwatch">
+      <h1>Stopwatch</h1>
+      <div class="display">
+        <span id="stopwatchTime">00:00:00</span>
+      </div>
+      <div class="controls">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+        <button id="lap">Lap</button>
+      </div>
+      <div class="laps">
+        <h2>Laps</h2>
+        <ul id="lapList"></ul>
+      </div>
+    </div>
+
+    <div class="reverse-timer">
+      <h1>Reverse Timer</h1>
+      <div class="input-section">
+        <label for="reverseInput">Set Time (hh:mm:ss):</label>
+        <input type="text" id="reverseInput" placeholder="00:00:00" />
+        <button id="setReverse">Set Timer</button>
+      </div>
+      <div class="display">
+        <span id="reverseTime">00:00:00</span>
+      </div>
+      <div class="controls">
+        <button id="startReverse">Start</button>
+        <button id="pauseReverse">Pause</button>
+        <button id="resetReverse">Reset</button>
+      </div>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>

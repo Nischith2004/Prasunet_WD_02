@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch,
+.reverse-timer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.display {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #555;
+}
+
+.laps {
+  margin-top: 20px;
+}
+
+.laps h2 {
+  margin: 0 0 10px;
+}
+
+#lapList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lapList li {
+  background: #444;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+#reverseInput {
+  font-size: 1rem;
+  padding: 5px;
+  width: 150px;
+  margin-right: 10px;
+}
