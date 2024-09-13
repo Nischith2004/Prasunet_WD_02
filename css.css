@@ -4,7 +4,8 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f0f0;
+    background-image: url("time.jpg");
+  background-size: cover;
   font-family: Arial, sans-serif;
 }
 
